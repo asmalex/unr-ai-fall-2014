@@ -1,0 +1,200 @@
+\documentclass{article}
+
+\usepackage[top=1in,left=1in,right=1in,bottom=1in]{geometry}
+\usepackage{verbatim}
+
+\begin{document}
+
+\title{CSE 482/682: Artificial Intelligence}
+\author{Richard Kelley}
+\date{Fall 2014}
+\maketitle
+
+\section*{Instructor information}
+
+\begin{itemize}
+  \item Your instructor is \textbf{Richard Kelley}
+  \item His email address is \verb|richard.kelley@gmail.com|
+  \item Office hours by appointment, unless we come up with something better.
+\end{itemize} 
+
+\section*{Course description and prerequisites}
+
+\textbf{Official Course Description:} Problem solving, search, and
+game trees. Knowledge representation, inference, and rule-based
+systems. Semantic networks, frames, and planning. Introduction to
+machine learning, neural-nets, and genetic algorithms. (Formerly CS
+476; implemented Spring 2005.)\\
+
+\noindent
+\textbf{Prerequisite(s):} CS 365.\\
+
+\noindent
+\textbf{Richard's Description:} This course will cover the fundamental
+principles that allow intelligent systems to operate in the world. We
+will look at classical (but still relevant) approaches to artificial
+intelligence and then move on the ideas (probabilistic modeling and
+learning) that have enabled AI to become an essential and ubiquitous
+part of modern civilization.
+
+\section*{List of required course materials}
+
+\textbf{Required Textbook: } \textit{Artificial Intelligence: A Modern
+  Approach} by Stuart Russell and Peter Norvig. The course website is
+\verb|http://aima.cs.berkeley.edu/|. This is actually one of the best
+textbooks in Computer Science. It gives a great introduction to the
+field, and is a great reference.
+
+\section*{Topics outline} 
+
+The topics below correspond sections in Russell and Norvig, but you
+should only consider them a guide to what we'll go over. Broadly, the
+three areas we're going to look at are classical AI, the modeling of
+uncertainty, and machine learning.\\
+
+\noindent
+Tentatively, here's what we're going to cover:
+
+\begin{itemize}
+  \item \textbf{Introduction}
+    \begin{itemize}
+      \item What is AI?
+    \end{itemize}
+
+  \item \textbf{Intelligent Agents}
+    \begin{itemize}
+      \item Agents and Environments
+      \item Good Behavior: The Concept of Rationality
+      \item The Nature of Environments
+      \item The Structure of Agents
+    \end{itemize}
+
+  \item \textbf{Solving Problems by Searching}
+    \begin{itemize}
+      \item Problem-Solving Agents
+      \item Example Problems
+      \item Searching for Solutions
+      \item Uninformed Search Strategies
+      \item Informed (Heuristic) Search Strategies
+      \item Heuristic Functions
+    \end{itemize}
+
+  \item \textbf{Beyond Classical Search}
+    \begin{itemize}
+      \item Local Search Algorithms and Optimization Problems
+      \item Local Search in Continuous Spaces
+      \item Online Search Agents and Unknown Environments
+    \end{itemize}
+
+  \item \textbf{Quantifying Uncertainty}
+    \begin{itemize}
+      \item Acting under Uncertainty
+      \item Basic Probability Notation
+      \item Inference Using Full Joint Distribution
+      \item Independence
+      \item Bayes' Rule and Its Use
+    \end{itemize}
+
+  \item \textbf{Probabilistic Reasoning}
+    \begin{itemize}
+      \item Representing Knowledge in an Uncertain Domain
+      \item The Semantics of Bayesian Networks
+      \item Efficient Representation of Conditional Distributions
+      \item Exact Inference in Bayesian Networks
+      \item Approximate Inference in Bayesian Networks
+    \end{itemize}
+
+  \item \textbf{Probabilistic Reasoning Over Time}
+    \begin{itemize}
+      \item Time and Uncertainty
+      \item Inference in Temporal Models
+      \item Hidden Markov Models
+      \item Kalman Filters
+    \end{itemize}
+
+  \item \textbf{Learning from Examples}
+    \begin{itemize}
+      \item Forms of Learning
+      \item Supervised Learning
+      \item The Theory of Learning
+      \item Regression and Classification with Linear Models
+      \item Artificial Neural Networks
+      \item Nonparametric Models
+      \item Support Vector Machines
+    \end{itemize}
+
+  \item \textbf{Applications}
+    \begin{itemize}
+      \item Natural Language Processing
+      \item Robotics
+      \item Computer Vision
+    \end{itemize}
+
+  \item \textbf{The Future of AI}
+\end{itemize}
+
+\section*{Approximate schedule of exams}
+
+There will be three exams and a comprehensive final. The first exam
+will cover classical AI (Introduction, Intelligent Agents, Solving
+Problems by Searching, Beyond Classical Search). The second exam will
+cover probabilistic reasoning (quantifying uncertainty, probabilistic
+reasoning, probabilistic reasoning over time). The third exam will
+cover machine learning and applications. The final exam will be
+comprehensive. The exact dates will depend on our progress through the
+material.\\
+
+\noindent
+There will also be weekly quizzes, on Mondays.
+
+\section*{Grading}
+
+Your grade will be determined by your performance on the quizzes and
+exams. The percentage breakdown is:
+
+\begin{itemize}
+  \item 20\% quizzes
+  \item 10\% exam 1
+  \item 20\% exam 2
+  \item 20\% exam 3
+  \item 30\% final exam
+\end{itemize}
+
+Additionally, graduate students will be required to complete a small
+(but nontrivial) project related to their intended area of
+research. They will have to present their work before the end of the
+semester. The items listed above will constitute 70\% of the graduate
+section grade. The project will constitute 30\%.
+
+\section*{Statement on Academic Dishonesty}
+Cheating, plagiarism or otherwise obtaining grades under false
+pretenses constitute academic dishonesty according to the code of this
+university. Academic dishonesty will not be tolerated and penalties
+can include canceling a student's enrollment without a grade, giving
+an F for the course or for the assignment. For more details, see the
+University of Nevada, Reno General Catalog.
+
+\section*{Statement of Disability Services}
+Any student with a disability needing academic adjustments or
+accommodations is requested to speak with the Disability Resource
+Center (Thompson Building, Suite 101) as soon as possible to arrange
+for appropriate accommodations.
+
+\section*{Statement on Audio and Video Recording}
+Surreptitious or covert video-taping of class or unauthorized audio
+recording of class is prohibited by law and by Board of Regents
+policy. This class may be videotaped or audio recorded only with the
+written permission of the instructor. In order to accommodate students
+with disabilities, some students may be given permission to record
+class lectures and discussions. Therefore, students should understand
+that their comments during class may be recorded.
+
+\section*{Statement for Academic Success Services}
+Your student fees cover usage of the Math Center (775) 784-4422,
+Tutoring Center (775) 784-6801, and University Writing Center (775)
+784-6030. These centers support your classroom learning; it is your
+responsibility to take advantage of their services. Keep in mind that
+seeking help outside of class is the sign of a responsible and
+successful student.
+
+\end{document}
